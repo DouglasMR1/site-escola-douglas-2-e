@@ -1,16 +1,16 @@
-*{ 
-    margin: 0;
-    padding: 0;
+:root {
+    --branco-principal:  #FFFFFF;
+    --cinza-segunario:   #C0C0C0;
+    --botao-azul:  #167BF7;
+    --cor-de-fundo:  #00030C;
 }
 
-.cabecalho {
-    background-color: black; 
-    color: aqua;
-    display: flex;
-    justify-content: space-around;
-align-items: center; 
+body {
+    background-color:  var(--cor-de-fundo);
+    color: var(--branco-principal);
 }
 
-.cabecalho-imagem{
-    width: 20%;
+*{
+    margin: 0%;
+    padding: 0%;
 }
