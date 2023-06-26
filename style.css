@@ -1,16 +1,32 @@
-:root {
-    --branco-principal:  #FFFFFF;
-    --cinza-segunario:   #C0C0C0;
-    --botao-azul:  #167BF7;
-    --cor-de-fundo:  #00030C;
+<body> {
+    background-color: #948307;
+    color: white;
 }
-
-body {
-    background-color:  var(--cor-de-fundo);
-    color: var(--branco-principal);
-}
-
-*{
-    margin: 0%;
-    padding: 0%;
-}
+<title>Document</title>
+<link rel="stylesheet" href="style.css">
+</body>
+.cabecalho {
+    background-color: #383D58;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    }
+    .cabecalho-lista-item{
+        display: inline-block;
+        margin: 0 16px;
+   
+         
+            margin: 0;
+            padding: 0;
+           
+            margin: 0 16px;
+            padding: 24px 0;
+           
+       
+            justify-content: space-around;
+            padding: 24px 0;
+           
+           
+            padding: 24px 0;
+            font-size: 24px;
+            }
